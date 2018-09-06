@@ -1,0 +1,19 @@
+{
+  "name": "example-webpack",
+  "version": "1.0.0",
+  "description": "Este es un ejemplo de webpack ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack index.js --output bundle.js --mode development"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "@JoelVilca",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^4.17.2",
+    "webpack-cli": "^3.1.0"
+  }
+}
